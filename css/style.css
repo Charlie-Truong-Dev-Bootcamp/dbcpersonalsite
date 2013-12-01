@@ -9,15 +9,52 @@ a{
 	text-decoration: none;
 }
 
+
+
 h1{
-	font-size: 1.750em;
-	letter-spacing: -1.5px;
+	font-size: 2.000em;
 }
 
 h2{
 	font-size: 1.500em;
 	color: #B4C34F;
 }
+
+
+
+#charlie{
+	border-radius: 200px;
+	margin: 10px;
+}
+
+#title{
+	text-align: center;
+}
+
+#squirrel{
+	border-radius: 200px;
+	margin: 10px;
+	width: 160px;
+	height: auto;
+	float: right;
+}
+
+#intro{
+	border: solid;
+}
+
+.images{
+	width: 100%;
+	height: auto;
+	border: 8px solid #FAF3BC;
+}
+
+#games .images{
+	width: 80%;
+	height: auto;
+	border: 8px solid #FAF3BC;
+}
+
 .btn{
 	color: #FAF3BC;
 	background: #4FB69F url('img/texture.png') no-repeat right top;
@@ -37,26 +74,8 @@ ul.nav {
 	float: right;
 }
 
-ul.nav li{
-	float: left;
-	margin-right: 40px;
-}
-
-ul.nav li a{
-	color: #FAF3BC;
-}
-
 #intro{
 	margin: 50px 0 75px 0;
-}
-
-#new-cupcakes img{
-	border: 8px solid #FAF3BC;
-	margin: 0 0 20px 0;
-}
-
-#featured-cupcake img{
-	border: 8px solid #FAF3BC;
 }
 
 #copyright{
