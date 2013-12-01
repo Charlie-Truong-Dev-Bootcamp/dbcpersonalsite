@@ -1,7 +1,15 @@
 body{
 	font-family: 'Nunito',sans-serif;
 	color: #FAF3BC;
-	background: #420600 url('img/bg-texture.jpg') repeat;
+	background: #420600 url('../img/lake.jpg') repeat;
+	background-size: cover;
+}
+
+#mainbody{
+	background: -webkit-linear-gradient(left, red, orange); /* For Safari */
+	background: -o-linear-gradient(left, red, orange); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(left, red, orange); /* For Fx 3.6 to 15 */
+	background: linear-gradient(to right, red, orange); /* Standard syntax (must be last) */
 }
 
 a{
@@ -52,27 +60,10 @@ h2{
 	border: 8px solid #FAF3BC;
 }
 
-.btn{
-	color: #FAF3BC;
-	background: #4FB69F url('img/texture.png') no-repeat right top;
-	padding: 15px 30px;
-	margin: 40px 0px;
-	border-radius: 25px;
-	text-transform: uppercase;
-}
 
-.btn:hover{
-	background-color: #4CC4A7;
-}
-
-ul.nav {
-	margin: 120px 0 0 0;
-	list-style: none;
-	float: right;
-}
 
 #intro{
-	margin: 50px 0 75px 0;
+	margin: 50px 0 75px 20px;
 }
 
 #copyright{
