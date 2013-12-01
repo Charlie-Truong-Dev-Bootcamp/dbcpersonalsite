@@ -25,7 +25,7 @@ h1{
 
 h2{
 	font-size: 1.500em;
-	color: #B4C34F;
+	color: #CCCC00;
 }
 
 
@@ -37,6 +37,7 @@ h2{
 
 #title{
 	text-align: center;
+	color: #CCCC00;
 }
 
 #squirrel{
