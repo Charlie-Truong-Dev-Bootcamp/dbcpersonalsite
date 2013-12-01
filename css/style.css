@@ -39,9 +39,6 @@ h2{
 	float: right;
 }
 
-#intro{
-	border: solid;
-}
 
 .images{
 	width: 100%;
@@ -50,7 +47,7 @@ h2{
 }
 
 #games .images{
-	width: 80%;
+	width: 100%;
 	height: auto;
 	border: 8px solid #FAF3BC;
 }
